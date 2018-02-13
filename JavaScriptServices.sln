@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 15.0.26730.03
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27304DDE-AFB2-4F8B-B765-E3E2F11E886C}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SpaServices.Extensions", "src\Microsoft.AspNetCore.SpaServices.Extensions\Microsoft.AspNetCore.SpaServices.Extensions.csproj", "{D40BD1C4-6A6F-4213-8535-1057F3EB3400}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "spatemplate", "samples\spatemplate\spatemplate.csproj", "{FD67D22E-54CC-482A-8C13-5D7689E6760B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{D40BD1C4-6A6F-4213-8535-1057F3EB3400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D40BD1C4-6A6F-4213-8535-1057F3EB3400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D40BD1C4-6A6F-4213-8535-1057F3EB3400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD67D22E-54CC-482A-8C13-5D7689E6760B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD67D22E-54CC-482A-8C13-5D7689E6760B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD67D22E-54CC-482A-8C13-5D7689E6760B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD67D22E-54CC-482A-8C13-5D7689E6760B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{DE479DC3-1461-4EAD-A188-4AF7AA4AE344} = {E6A161EA-646C-4033-9090-95BE809AB8D9}
 		{93EFCC5F-C6EE-4623-894F-A42B22C0B6FE} = {E6A161EA-646C-4033-9090-95BE809AB8D9}
 		{D40BD1C4-6A6F-4213-8535-1057F3EB3400} = {27304DDE-AFB2-4F8B-B765-E3E2F11E886C}
+		{FD67D22E-54CC-482A-8C13-5D7689E6760B} = {23836492-E7F4-4376-85BF-A635C304AC46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDF59B0D-2DEC-45D6-8667-DCB767487101}
